@@ -1,0 +1,29 @@
+
+.app {
+  display: grid;
+  grid-template-columns: 1fr 350px;
+
+  .content {
+    padding: 40px;
+  }
+
+
+  .sidebar {
+    background-color: rgb(63, 2, 63);
+    height: 100vh;
+
+    .wrapper {
+      padding: 100px 20px;
+
+      .op {
+        margin-bottom: 20px;
+        font-size: 30px;
+        padding: 10px 15px;
+
+        &:hover {
+          background-color: purple;
+        }
+      }
+    }
+  }
+}

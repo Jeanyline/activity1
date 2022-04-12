@@ -1,0 +1,29 @@
+
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  form {
+    width: 400px;
+    background-color: rgb(39, 33, 33);
+    padding: 20px;
+    margin-top: 40px;
+
+    h2 {
+      margin-bottom: 10px;
+    }
+
+    input, button, textarea {
+      width: 100%;
+      padding: 10px 15px;
+      margin-top: 15px;
+      background-color: #000;
+      color: #fff;
+    }
+
+    button {
+      background-color: purple;
+    }
+  }
+}
